@@ -1,0 +1,53 @@
+{
+  "name": "Sarah Jenkins",
+  "email": "sarah.jenkins@techmail.org",
+  "phone": "(415) 555-0199",
+  "skills": [
+    "AWS",
+    "CI/CD",
+    "Docker",
+    "Express",
+    "Express.js",
+    "Git",
+    "GitHub",
+    "GitHub Actions",
+    "GraphQL",
+    "JavaScript",
+    "Jenkins",
+    "Kubernetes",
+    "Microservices",
+    "MongoDB",
+    "Node.js",
+    "Python",
+    "React",
+    "Redis",
+    "SQL",
+    "TypeScript"
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "Stanford University",
+      "year": "2020"
+    },
+    {
+      "degree": "Bachelor of Science",
+      "institution": "University of California",
+      "year": "2018"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "company": "Apex Cloud Systems",
+      "duration": "Aug 2022 - Present"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Pinnacle Software Labs",
+      "duration": "Jul 2020 - Jul 2022"
+    }
+  ],
+  "linkedin": "https://www.linkedin.com/in/sarahjenkins-dev",
+  "github": "https://github.com/sarahjenkins"
+}

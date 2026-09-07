@@ -1,0 +1,25 @@
+{
+  "name": "Vikram Patel",
+  "email": "vikram.patel99@gmail.com",
+  "phone": "9823456789",
+  "skills": [
+    "Data Analysis",
+    "Data Science",
+    "Machine Learning",
+    "NumPy",
+    "Pandas",
+    "Python",
+    "SQL",
+    "Tableau"
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Statistics",
+      "institution": "City College",
+      "year": "2023"
+    }
+  ],
+  "experience": [],
+  "linkedin": null,
+  "github": null
+}
