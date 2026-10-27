@@ -133,3 +133,27 @@ async def serve_index():
         return FileResponse(index_path)
     return {"message": "Frontend UI index.html not found. Access /docs for API documentation."}
 
+import modal
+
+# Modal Image with dependencies and local directories added directly
+image = (
+    modal.Image.debian_slim()
+    .pip_install(
+        "fastapi>=0.110.0",
+        "uvicorn[standard]>=0.28.0",
+        "python-multipart>=0.0.9",
+        "pypdf>=4.1.0",
+        "pymupdf>=1.24.0",
+        "python-docx>=1.1.0",
+        "pydantic>=2.6.0"
+    )
+    .add_local_dir("app", remote_path="/root/app")
+    .add_local_dir("frontend", remote_path="/root/frontend")
+)
+
+app_modal = modal.App("resume-extractor-api")
+
+@app_modal.function(image=image)
+@modal.asgi_app()
+def serve_fastapi():
+    return app
