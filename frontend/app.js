@@ -151,7 +151,7 @@ async function extractResume(file) {
     hideAlert();
 
     try {
-        const response = await fetch('/api/extract', {
+        const response = await fetch('ttps://dk76-76--resume-extractor-api-serve-fastapi.us-east.modal.run/api/extract', {
             method: 'POST',
             body: formData
         });
