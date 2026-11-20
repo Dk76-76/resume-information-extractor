@@ -347,7 +347,7 @@ async function loadSampleResume(sampleFilename) {
         setLoading(true);
         showAlert(`Loading sample ${sampleFilename}...`, 'success');
         
-        const response = await fetch(`/samples/${sampleFilename}`);
+        const response = await fetch(`./samples/${sampleFilename}`);
         if (!response.ok) {
             throw new Error(`Could not load sample file (${response.statusText})`);
         }
